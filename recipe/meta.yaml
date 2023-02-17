@@ -1,5 +1,5 @@
 {% set name = "pytest-reportportal" %}
-{% set version = "5.1.3" %}
+{% set version = "5.1.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-reportportal-{{ version }}.tar.gz
-  sha256: 436d0514f2561abd83d85de611eb6fbcbd4758b5608832b4e82b9620fdedd360
+  sha256: 3522b8f68df008dafdbb41d46ef622e663d0f929c18761e2f243adad2b80aee7
 
 build:
   number: 0
