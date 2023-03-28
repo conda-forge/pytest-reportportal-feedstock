@@ -1,11 +1,11 @@
-About pytest-reportportal
-=========================
+About pytest-reportportal-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-reportportal-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/reportportal/agent-python-pytest
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-reportportal-feedstock/blob/main/LICENSE.txt)
 
 Summary: Agent for Reporting results of tests to the Report Portal
 
