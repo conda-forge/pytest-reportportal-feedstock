@@ -1,5 +1,5 @@
 {% set name = "pytest-reportportal" %}
-{% set version = "5.2.0" %}
+{% set version = "5.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-reportportal-{{ version }}.tar.gz
-  sha256: 9f22584d18061b8d49b5ecb49528db1cbf189d5f5f3ee57e8a75444ab86eb7a8
+  sha256: d66f35d3bd0829471e9dec6f26a56b145bbe07d746383a41e3fb25359e2b77f7
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - dill >=0.3.6
     - pytest >=3.8.0
     - python >=3.6
-    - reportportal-client ==5.3.5
+    - reportportal-client ==5.4.0
     - requests >=2.27.1
     - six >=1.16.0
 
