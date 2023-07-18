@@ -27,7 +27,7 @@ requirements:
     - dill >=0.3.6
     - pytest >=3.8.0
     - python >=3.6
-    - reportportal-client ==5.3.5
+    - reportportal-client ==5.4.0
     - requests >=2.27.1
     - six >=1.16.0
 
