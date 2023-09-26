@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=68.0.0
     - setuptools-scm
     - wheel ==0.40.0
@@ -26,8 +26,8 @@ requirements:
     - aenum >=3.1.0
     - dill >=0.3.6
     - pytest >=3.8.0
-    - python >=3.6
-    - reportportal-client ==5.4.0
+    - python >=3.7
+    - reportportal-client ==5.4.1
     - requests >=2.27.1
     - six >=1.16.0
 
