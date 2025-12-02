@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pytest-reportportal
-  version: "5.5.3"
+  version: "5.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: eab4f6dd7f276a3754e9e34e563d606a4e3728e5d2d44a237b1f2dc42662fe9b
+  sha256: da378f95f4ca8a0bf7e771b265b45f72e5cb05f72b8f53dbe4b80ad73d90d62f
 
 build:
   number: 0
