@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pytest-reportportal
-  version: "5.5.4"
+  version: "5.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 1a58cd0b428ac2dd9dd1d8972a192116bf538d489b61f05890305af35ef07dee
+  sha256: da378f95f4ca8a0bf7e771b265b45f72e5cb05f72b8f53dbe4b80ad73d90d62f
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - dill >=0.3.6
     - pytest >=4.6.10
     - python >=${{ python_min }}
-    - reportportal-client ~=5.6.7
+    - reportportal-client ~=5.7.0
 
 tests:
   - python:
