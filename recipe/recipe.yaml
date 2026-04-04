@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pytest-reportportal
-  version: "5.6.1"
+  version: "5.6.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 349dfcaa74d050fa90a81d3137659751ff78b8d08a7e9baef870720fe339c760
+  sha256: e11fb4a3cbf892a0076facecd3cb937134a6f5522453199d700c25860d5b717b
 
 build:
   number: 0
@@ -25,11 +25,11 @@ requirements:
     - setuptools-scm
     - wheel ==0.40.0
   run:
-    - aenum >=3.1.0
+    - aenum ==3.1.17
     - dill >=0.3.6
     - pytest >=4.6.10
     - python >=${{ python_min }}
-    - reportportal-client ~=5.7.0
+    - reportportal-client ==5.7.1
 
 tests:
   - python:
