@@ -29,7 +29,7 @@ requirements:
     - dill >=0.3.6
     - pytest >=4.6.10
     - python >=${{ python_min }}
-    - reportportal-client ==5.7.2
+    - reportportal-client ==5.7.4
 
 tests:
   - python:
