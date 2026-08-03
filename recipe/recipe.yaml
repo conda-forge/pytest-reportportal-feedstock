@@ -25,11 +25,8 @@ requirements:
     - setuptools-scm
     - wheel ==0.46.2
   run:
-    - aenum ==3.1.17
-    - dill >=0.3.6
-    - pytest >=4.6.10
     - python >=${{ python_min }}
-    - reportportal-client ==5.7.7
+    - reportportal-client ==5.7.9
 
 tests:
   - python:
